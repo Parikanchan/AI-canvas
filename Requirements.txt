@@ -1,0 +1,14 @@
+opencv-python
+mediapipe
+numpy
+pytesseract
+
+# NOTE: pytesseract is just a Python wrapper. You must ALSO install the
+# actual Tesseract-OCR engine separately, or OCR will report it's missing:
+#
+#   Windows: https://github.com/UB-Mannheim/tesseract/wiki  (installer)
+#            then either add it to PATH, or in shapes_ocr.py set:
+#            pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+#
+#   macOS:   brew install tesseract
+#   Linux:   sudo apt-get install tesseract-ocr
